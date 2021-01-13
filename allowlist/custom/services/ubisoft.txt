@@ -1,0 +1,5 @@
+# Ubisoft
+@@||ubisoft.com^$important
+
+# Ubisoft CDN
+@@||cdn.ubi.com^$important

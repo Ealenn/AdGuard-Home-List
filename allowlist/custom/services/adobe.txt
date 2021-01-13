@@ -1,0 +1,3 @@
+# Adobe licence verification
+@@||lm.licenses.adobe.com^$important
+@@||activate.adobe.com^$important

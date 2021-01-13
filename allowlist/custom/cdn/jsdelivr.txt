@@ -1,0 +1,2 @@
+# Jsdelivr.net Open Source CDN
+@@||jsdelivr.net^$important

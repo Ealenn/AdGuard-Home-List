@@ -1,0 +1,3 @@
+# Wordpress
+@@||wp.com^$important
+@@||wordpress.com^$important

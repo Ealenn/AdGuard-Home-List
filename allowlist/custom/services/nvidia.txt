@@ -1,0 +1,6 @@
+# Nvidia updates
+@@||ota-downloads.nvidia.com^$important
+
+# GeForce Experience
+@@||events.gfe.nvidia.com^$important
+@@||gfwsl.geforce.com^$important

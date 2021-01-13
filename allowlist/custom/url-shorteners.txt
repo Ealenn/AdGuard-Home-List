@@ -1,0 +1,11 @@
+# URL shorteners
+@@||adf.ly^$important
+@@||www.adf.ly^$important
+@@||bit.ly^$important
+@@||www.bit.ly^$important
+@@||goo.gl^$important
+@@||ow.ly^$important
+@@||www.ow.ly^$important
+@@||amzn.to^$important
+@@||amzn.com^$important
+@@||j.mp^$important

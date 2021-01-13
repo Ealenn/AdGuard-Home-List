@@ -1,0 +1,5 @@
+# Samsung Cloud Solution
+@@||time.samsungcloudsolution.com^$important
+
+# Samsung CDN
+@@||cdn.samsungcloudsolution.com^$important

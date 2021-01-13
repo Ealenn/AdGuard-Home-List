@@ -1,0 +1,2 @@
+# Firefox Browser
+@@||detectportal.firefox.com^$important

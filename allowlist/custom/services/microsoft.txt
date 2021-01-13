@@ -1,0 +1,96 @@
+# Microsoft
+
+# Azure Public
+@@||appcenter.ms^$important
+@@||aadcdn.microsoftonline-p.com^$important
+@@||aka.ms^$important
+@@||applicationinsights.io^$important
+@@||azure.com^$important
+@@||azure.net^$important
+@@||azurefd.net^$important
+@@||azure-api.net^$important
+@@||azuredatalakestore.net^$important
+@@||azureedge.net^$important
+@@||loganalytics.io^$important
+@@||microsoft.com^$important
+@@||microsoftonline.com^$important
+@@||microsoftonline-p.com^$important
+@@||msauth.net^$important
+@@||msftauth.net^$important
+@@||trafficmanager.net^$important
+@@||visualstudio.com^$important
+@@||windows.net^$important
+@@||windows-int.net^$important
+@@||blob.core.windows.net^$important
+
+# Azure US
+@@||applicationinsights.us^$important
+@@||azure.us^$important
+@@||loganalytics.us^$important
+@@||microsoft.us^$important
+@@||microsoftonline.us^$important
+@@||msauth.net^$important
+@@||usgovcloudapi.net^$important
+@@||usgovtrafficmanager.net^$important
+@@||windowsazure.us^$important
+
+# Live 
+@@||xbox.ipv6.microsoft.com^$important
+@@||xboxexperiencesprod.experimentation.xboxlive.com^$important
+@@||xflight.xboxlive.com^$important
+@@||xkms.xboxlive.com^$important
+@@||xsts.auth.xboxlive.com^$important
+@@||title.auth.xboxlive.com^$important
+@@||title.mgt.xboxlive.com^$important
+@@||notify.xboxlive.com^$important
+@@||def-vef.xboxlive.com^$important
+@@||eds.xboxlive.com^$important
+@@||licensing.xboxlive.com^$important
+@@||help.ui.xboxlive.com^$important
+@@||attestation.xboxlive.com^$important
+@@||cert.mgt.xboxlive.com^$important
+@@||device.auth.xboxlive.com^$important
+@@||events.data.microsoft.com^$important
+@@||events.data.microsoft.com^$important
+
+# Windows
+@@||data.microsoft.com
+@@||onedrive.live.com^$important
+
+# Skype 
+@@||ui.skype.com^$important
+@@||apps.skype.com^$important
+
+# Office
+@@||office.com^$important
+@@||office.net^$important
+@@||office365.com^$important
+@@||officeclient.microsoft.com^$important
+@@||nexusrules.officeapps.live.com^$important
+@@||microsoftonline.com^$important
+@@||live.com^$important
+@@||msftncsi.com^$important
+@@||i.s-microsoft.com^$important
+
+# Others
+@@||t0.ssl.ak.dynamic.tiles.virtualearth.net^$important
+@@||t0.ssl.ak.tiles.virtualearth.net^$important
+@@||ipv6.microsoft.com^$important
+@@||win10.ipv6.microsoft.com^$important
+@@||ipv6.msftconnecttest.com^$important
+@@||ipv6.msftncsi.com^$important
+@@||sharepoint.com^$important
+@@||pricelist.skype.com^$important
+@@||c.s-microsoft.com^$important
+@@||clientconfig.passport.net^$important
+@@||ctldl.windowsupdate.com^$important
+@@||dev.virtualearth.net^$important
+@@||ecn.dev.virtualearth.net^$important
+@@||geo-prod.do.dsp.mp.microsoft.com^$important
+@@||displaycatalog.mp.microsoft.com^$important
+@@||1drv.com^$important
+
+# CDN 
+@@||aspnetcdn.com^$important
+@@||delivery.mp.microsoft.com^$important
+@@||aka.ms^$important

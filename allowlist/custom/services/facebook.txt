@@ -1,0 +1,44 @@
+# Facebook
+@@||upload.facebook.com^$important
+@@||creative.ak.fbcdn.net^$important
+@@||external-lhr0-1.xx.fbcdn.net^$important
+@@||external-lhr1-1.xx.fbcdn.net^$important
+@@||external-lhr10-1.xx.fbcdn.net^$important
+@@||external-lhr2-1.xx.fbcdn.net^$important
+@@||external-lhr3-1.xx.fbcdn.net^$important
+@@||external-lhr4-1.xx.fbcdn.net^$important
+@@||external-lhr5-1.xx.fbcdn.net^$important
+@@||external-lhr6-1.xx.fbcdn.net^$important
+@@||external-lhr7-1.xx.fbcdn.net^$important
+@@||external-lhr8-1.xx.fbcdn.net^$important
+@@||external-lhr9-1.xx.fbcdn.net^$important
+@@||fbcdn-creative-a.akamaihd.net^$important
+@@||scontent-lhr3-1.xx.fbcdn.net^$important
+
+# Facebook Messenger
+@@||api.facebook.com^$important
+@@||edge-mqtt.facebook.com^$important
+@@||graph.facebook.com^$important
+@@||mqtt.c10r.facebook.com^$important
+@@||portal.fb.com^$important
+@@||star.c10r.facebook.com^$important
+@@||edge-mqtt.facebook.com^$important
+@@||0-edge-chat.facebook.com^$important
+@@||1-edge-chat.facebook.com^$important
+@@||2-edge-chat.facebook.com^$important
+@@||3-edge-chat.facebook.com^$important
+@@||4-edge-chat.facebook.com^$important
+@@||5-edge-chat.facebook.com^$important
+@@||6-edge-chat.facebook.com^$important
+@@||edge-chat.facebook.com^$important
+@@||mqtt-mini.facebook.com^$important
+
+# Instagram
+@@||graph.instagram.com^$important
+@@||instagram.c10r.facebook.com^$important
+@@||cdninstagram.com^$important
+
+# Facebook/Instagram CDN
+@@||scontent.xx.fbcdn.net^$important
+@@||scontent.fgdl5-1.fna.fbcdn.net^$important
+@@||cdn.fbsbx.com^$important

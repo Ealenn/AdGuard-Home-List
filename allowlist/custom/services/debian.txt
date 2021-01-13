@@ -1,0 +1,3 @@
+# Debian
+@@||debian.pool.ntp.org^$important
+@@||security.debian.org^$important

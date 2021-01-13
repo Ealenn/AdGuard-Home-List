@@ -1,0 +1,29 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - "master"
+  schedule:
+    - cron: '0 4 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '3.1.x'
+    - name: Install dependencies
+      run: dotnet restore ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj
+    - name: Build
+      run: dotnet build ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj --configuration Release --no-restore
+    - name: Run
+      run: dotnet run --project ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj --no-build --no-restore
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public

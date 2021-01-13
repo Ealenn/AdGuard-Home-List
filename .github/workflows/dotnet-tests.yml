@@ -1,0 +1,29 @@
+name: Dotnet Tests
+
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+    branches:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '3.1.x'
+    - name: Install dependencies
+      run: dotnet restore AdGuard-Home-List.sln
+    - name: Build
+      run: dotnet build AdGuard-Home-List.sln --configuration Release --no-restore
+    - name: Tests
+      run: dotnet test AdGuard-Home-List.sln --configuration Release --no-restore --collect:"XPlat Code Coverage"
+    - name: Publish
+      run: bash <(curl -s https://codecov.io/bash)
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

@@ -1,0 +1,4 @@
+# Ted.com
+@@||hls.ted.com^$important
+@@||app-api.ted.com^$important
+@@||tedcdn.com^$important

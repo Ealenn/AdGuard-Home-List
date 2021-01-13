@@ -1,0 +1,24 @@
+# Google
+@@||www.google.com^$important
+@@||www.google.fr^$important
+
+# GCP
+@@||googletagservices.com^$important
+@@||www.googleapis.com^$important
+
+# Android
+@@||0.client-channel.google.com^$important
+@@||2.android.pool.ntp.org^$important
+@@||android.clients.google.com^$important
+@@||clients1.google.com^$important
+@@||clients2.google.com^$important
+@@||clients3.google.com^$important
+@@||clients4.google.com^$important
+@@||clients5.google.com^$important
+@@||clients6.google.com^$important
+
+# Google Others
+@@||cse.google.com^$important
+@@||googleapis.com^$important
+@@||gstatic.com^$important
+@@||geo3.ggpht.com^$important

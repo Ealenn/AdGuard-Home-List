@@ -1,0 +1,19 @@
+# Apple
+@@||gdmf.apple.com.akadns.net^$important
+@@||apple.com^$important
+@@||icloud.com^$important
+@@||itunes.com^$important
+@@||mzstatic.com^$important
+@@||apple-dns.net^$important
+@@||cdn-apple.com^$important
+@@||iphone-ld.origin-apple.com.akadns.net^$important
+@@||ax.phobos.apple.com.edgesuite.net^$important
+@@||init-p01md-lb.push-apple.com.akadns.net^$important
+@@||uts-api-cdn.itunes-apple.com.akadns.net^$important
+@@||np-edge-cdn.itunes-apple.com.akadns.net^$important
+@@||iadsdk.apple.com.akadns.net^$important
+@@||play.itunes.apple.com.edgesuite.net^$important
+@@||itunes.apple.com^$important
+
+# Apple DNS
+@@||me.apple-dns.net^$important
