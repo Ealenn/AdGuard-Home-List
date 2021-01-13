@@ -1596,7 +1596,6 @@
 ||apple.cojm^
 ||apple.cokm^
 ||apple.colm^
-||apple.com^
 ||apple.comj^
 ||apple.comk^
 ||apple.comm^
@@ -12486,7 +12485,6 @@
 ||microsoft.cojm^
 ||microsoft.cokm^
 ||microsoft.colm^
-||microsoft.com^
 ||microsoft.comj^
 ||microsoft.comk^
 ||microsoft.comm^
@@ -13398,7 +13396,6 @@
 ||netflix.cojm^
 ||netflix.cokm^
 ||netflix.colm^
-||netflix.com^
 ||netflix.comj^
 ||netflix.comk^
 ||netflix.comm^
@@ -21786,7 +21783,6 @@
 ||wikipedfia.org^
 ||wikipedi.aorg^
 ||wikipedi.org^
-||wikipedia..org^
 ||wikipedia.iorg^
 ||wikipedia.korg^
 ||wikipedia.lorg^
@@ -24051,10 +24047,8 @@
 ||youttube.com^
 ||youtu6e.com^
 ||youtubbe.com^
-||youtube.be^
 ||youtube.cm^
 ||youtube.cn^
-||youtube.co^
 ||youtubecom.com^
 ||youtue.com^
 ||youtueb.com^
