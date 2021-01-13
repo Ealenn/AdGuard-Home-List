@@ -28,7 +28,7 @@ https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/AdGuard-Home
 
 ## <a name='CustomListProvider'></a>Custom List Provider
 
-In the folder `content/custom/*` is stored and classified all custom lists **in AdGuard format**.
+The folders `allowlist/custom/*` and `blocklist/custom/*` contains all custom lists **in AdGuard format**.
 
 ## <a name='ExternalListProvider'></a>External List Provider
 
@@ -73,8 +73,8 @@ These lists are downloaded, cleaned and combined during a release.
 - [Hosts.extras](https://github.com/FadeMind/hosts.extras) ![GitHub Repo stars](https://img.shields.io/github/stars/FadeMind/hosts.extras?style=flat-square)
 - [StevenBlack/hosts](https://github.com/StevenBlack/hosts) ![GitHub Repo stars](https://img.shields.io/github/stars/StevenBlack/hosts?style=flat-square)
 - [anudeepND/blacklist](https://github.com/anudeepND/blacklist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/blacklist?style=flat-square)
-- [firebog.net](firebog.net)
-- [disconnect.me](disconnect.me)
-- [phishing.army](phishing.army)
+- [firebog.net](https://firebog.net)
+- [disconnect.me](https://disconnect.me)
+- [phishing.army](https://phishing.army)
 - [winhelp2002.mvps.org](https://winhelp2002.mvps.org)
 - [Shub_/mobile-ads-block](https://gitlab.com/Shub_/mobile-ads-block)
