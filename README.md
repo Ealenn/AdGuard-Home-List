@@ -28,7 +28,7 @@ https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/AdGuard-Home
 
 ## <a name='CustomListProvider'></a>Custom List Provider
 
-In the folder `content/custom/*` is stored and classified all custom lists **in AdGuard format**.
+The folders `allowlist/custom/*` and `blocklist/custom/*` contains all custom lists **in AdGuard format**.
 
 ## <a name='ExternalListProvider'></a>External List Provider
 
