@@ -25,10 +25,12 @@
 @@||akamai.net^$important
 @@||akadns.net^$important
 @@||akamaiedge.net^$important
+@@||edgekey.net^$important
 @@||playstation.net^$important
 @@||community.playstation.net^$important
 @@||stats.streamelements.com^$important
 @@||letsencrypt.org^$important
+@@||www.linkedin.com^$important
 @@||reddit.com^$important
 @@||debian.pool.ntp.org^$important
 @@||security.debian.org^$important
@@ -49,6 +51,9 @@
 @@||cws-iad1.conviva.com^$important
 @@||vod-l3c-eu-north-2.media.dssott.com.c.footprint.net^$important
 @@||disney.demdex.net^$important
+@@||api.snapchat.com^$important
+@@||duplex.snapchat.com^$important
+@@||chat.snapchat.com^$important
 @@||upload.facebook.com^$important
 @@||creative.ak.fbcdn.net^$important
 @@||external-lhr0-1.xx.fbcdn.net^$important
@@ -159,6 +164,7 @@
 @@||audio4-ak.spotify.com.edgesuite.net^$important
 @@||www.google.com^$important
 @@||www.google.fr^$important
+@@||suggestqueries.google.com
 @@||googletagservices.com^$important
 @@||www.googleapis.com^$important
 @@||0.client-channel.google.com^$important
