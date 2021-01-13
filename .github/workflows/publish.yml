@@ -1,11 +1,11 @@
 name: Publish
 
-on:
-  push:
-    branches:
-      - "master"
-  schedule:
-    - cron: '0 4 * * *'
+on: [push]
+  # push:
+  #   branches:
+  #     - "master"
+  # schedule:
+  #   - cron: '0 4 * * *'
 
 jobs:
   build:
