@@ -6,3 +6,4 @@
 @@||akamai.net^$important
 @@||akadns.net^$important
 @@||akamaiedge.net^$important
+@@||edgekey.net^$important

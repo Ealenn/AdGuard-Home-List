@@ -77,4 +77,5 @@ These lists are downloaded, cleaned and combined during a release.
 - [disconnect.me](https://disconnect.me)
 - [phishing.army](https://phishing.army)
 - [winhelp2002.mvps.org](https://winhelp2002.mvps.org)
-- [Shub_/mobile-ads-block](https://gitlab.com/Shub_/mobile-ads-block)
+- [notracking/hosts-blocklists](https://github.com/notracking/hosts-blocklists) ![GitHub Repo stars](https://img.shields.io/github/stars/notracking/hosts-blocklists?style=flat-square)
+- [frogeye.fr](https://hostfiles.frogeye.fr/)

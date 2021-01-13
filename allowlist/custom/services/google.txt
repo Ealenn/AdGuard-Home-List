@@ -1,6 +1,7 @@
 # Google
 @@||www.google.com^$important
 @@||www.google.fr^$important
+@@||suggestqueries.google.com
 
 # GCP
 @@||googletagservices.com^$important

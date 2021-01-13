@@ -1,0 +1,5 @@
+# Snapchat
+
+@@||api.snapchat.com^$important
+@@||duplex.snapchat.com^$important
+@@||chat.snapchat.com^$important
