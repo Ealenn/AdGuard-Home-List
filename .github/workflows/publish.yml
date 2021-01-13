@@ -9,7 +9,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
@@ -20,10 +20,8 @@ jobs:
       run: dotnet restore ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj
     - name: Build
       run: dotnet build ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj --configuration Release --no-restore
-    - name: Debug
-      run: echo $PWD
     - name: Run
-      run: dotnet run --project ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj --no-build --no-restore
+      run: dotnet run --project ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj --no-build --no-restore -v d
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:

@@ -21,7 +21,6 @@ namespace Ealen.AdGuard.App
 
             // Args
             var currentDirectory = Environment.CurrentDirectory;
-            Console.WriteLine(currentDirectory);
 
             // Services
             var adGuardListService = serviceProvider.GetService<IAdGuardListService>();
