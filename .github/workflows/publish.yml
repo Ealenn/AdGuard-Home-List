@@ -20,6 +20,8 @@ jobs:
       run: dotnet restore ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj
     - name: Build
       run: dotnet build ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj --configuration Release --no-restore
+    - name: Debug
+      run: echo $PWD
     - name: Run
       run: dotnet run --project ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj --no-build --no-restore
     - name: Deploy
