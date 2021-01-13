@@ -17,11 +17,13 @@ jobs:
       with:
         dotnet-version: '3.1.x'
     - name: Install dependencies
-      run: dotnet restore ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj
+      run: dotnet restore AdGuard-Home-List.sln
     - name: Build
-      run: dotnet build ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj --configuration Release --no-restore
+      run: dotnet build AdGuard-Home-List.sln --configuration Release --no-restore
+    - name: Publish
+      run: dotnet publish --configuration Release --no-build --no-restore --nologo -o publish
     - name: Run
-      run: dotnet run --project ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj --no-build --no-restore
+      run: ./publish/Ealen.AdGuard.App
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
