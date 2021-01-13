@@ -20,8 +20,10 @@ jobs:
       run: dotnet restore ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj
     - name: Build
       run: dotnet build ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj --configuration Release --no-restore
+    - name: Publish
+      run: dotnet publish --configuration Release --no-build --no-restore --nologo -o publish
     - name: Run
-      run: dotnet run --project ./src/Ealen.AdGuard.App/Ealen.AdGuard.App.csproj --no-build --no-restore -v d
+      run: ./publish/Ealen.AdGuard.App
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
