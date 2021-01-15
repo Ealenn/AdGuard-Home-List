@@ -7,6 +7,8 @@ Varied and carefully selected filter lists and consolidates for use in AdGuard H
 * [Custom List Provider](#CustomListProvider)
 * [External List Provider](#ExternalListProvider)
 	* [Contains](#Contains)
+		* [Services](#Services)
+		* [Community](#Community)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -64,18 +66,25 @@ These lists are downloaded, cleaned and combined during a release.
 
 ### <a name='Contains'></a>Contains
 
+#### <a name='Services'></a>Services
+
 - [AdGuardSDNSFilter/Filters](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
 - [Adaway](https://adaway.org)
 - [EasyList](https://easylist.to)
 - [Yoyo.org](https://pgl.yoyo.org/adservers/)
-- [YouTube Ads4Pi-Hole](https://github.com/kboghdady/youTube_ads_4_pi-hole) ![GitHub Repo stars](https://img.shields.io/github/stars/kboghdady/youTube_ads_4_pi-hole?style=flat-square)
-- [Curben Urlhaus Filter](https://gitlab.com/curben/urlhaus-filter)
-- [Hosts.extras](https://github.com/FadeMind/hosts.extras) ![GitHub Repo stars](https://img.shields.io/github/stars/FadeMind/hosts.extras?style=flat-square)
-- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) ![GitHub Repo stars](https://img.shields.io/github/stars/StevenBlack/hosts?style=flat-square)
-- [anudeepND/blacklist](https://github.com/anudeepND/blacklist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/blacklist?style=flat-square)
 - [firebog.net](https://firebog.net)
 - [disconnect.me](https://disconnect.me)
 - [phishing.army](https://phishing.army)
-- [winhelp2002.mvps.org](https://winhelp2002.mvps.org)
-- [notracking/hosts-blocklists](https://github.com/notracking/hosts-blocklists) ![GitHub Repo stars](https://img.shields.io/github/stars/notracking/hosts-blocklists?style=flat-square)
+
+#### <a name='Community'></a>Community
+
+- [Curben Urlhaus Filter](https://gitlab.com/curben/urlhaus-filter)
 - [frogeye.fr](https://hostfiles.frogeye.fr/)
+- [winhelp2002.mvps.org](https://winhelp2002.mvps.org)
+- [Hosts.extras](https://github.com/FadeMind/hosts.extras) ![GitHub Repo stars](https://img.shields.io/github/stars/FadeMind/hosts.extras?style=flat-square)
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) ![GitHub Repo stars](https://img.shields.io/github/stars/StevenBlack/hosts?style=flat-square)
+- [anudeepND/blacklist](https://github.com/anudeepND/blacklist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/blacklist?style=flat-square)
+- [notracking/hosts-blocklists](https://github.com/notracking/hosts-blocklists) ![GitHub Repo stars](https://img.shields.io/github/stars/notracking/hosts-blocklists?style=flat-square)
+- [mitchellkrogza/Phishing.Database](https://github.com/mitchellkrogza/Phishing.Database) ![GitHub Repo stars](https://img.shields.io/github/stars/mitchellkrogza/Phishing.Database?style=flat-square)
+- [Yhonay/antipopads](https://github.com/Yhonay/antipopads) ![GitHub Repo stars](https://img.shields.io/github/stars/Yhonay/antipopads?style=flat-square)
+- [mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites](https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites) ![GitHub Repo stars](https://img.shields.io/github/stars/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites?style=flat-square)

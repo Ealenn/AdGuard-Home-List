@@ -1,0 +1,3 @@
+# Amazon
+
+||device-metrics-us-2.amazon.com^$important
