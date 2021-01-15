@@ -1,3 +1,2 @@
 # WhatsApp
-@@||whatsapp.net^$important
-@@||whatsapp.com^$important
+@@||cdn.whatsapp.net^$important

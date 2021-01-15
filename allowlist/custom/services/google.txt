@@ -3,10 +3,6 @@
 @@||www.google.fr^$important
 @@||suggestqueries.google.com
 
-# GCP
-@@||googletagservices.com^$important
-@@||www.googleapis.com^$important
-
 # Android
 @@||0.client-channel.google.com^$important
 @@||2.android.pool.ntp.org^$important
@@ -20,6 +16,6 @@
 
 # Google Others
 @@||cse.google.com^$important
-@@||googleapis.com^$important
 @@||gstatic.com^$important
 @@||geo3.ggpht.com^$important
+@@||ajax.googleapis.com^$important

@@ -1,19 +1,8 @@
 # Facebook
 @@||upload.facebook.com^$important
+@@||rupload.facebook.com^$important
 @@||creative.ak.fbcdn.net^$important
-@@||external-lhr0-1.xx.fbcdn.net^$important
-@@||external-lhr1-1.xx.fbcdn.net^$important
-@@||external-lhr10-1.xx.fbcdn.net^$important
-@@||external-lhr2-1.xx.fbcdn.net^$important
-@@||external-lhr3-1.xx.fbcdn.net^$important
-@@||external-lhr4-1.xx.fbcdn.net^$important
-@@||external-lhr5-1.xx.fbcdn.net^$important
-@@||external-lhr6-1.xx.fbcdn.net^$important
-@@||external-lhr7-1.xx.fbcdn.net^$important
-@@||external-lhr8-1.xx.fbcdn.net^$important
-@@||external-lhr9-1.xx.fbcdn.net^$important
-@@||fbcdn-creative-a.akamaihd.net^$important
-@@||scontent-lhr3-1.xx.fbcdn.net^$important
+@@||fbcdn.net^$important
 
 # Facebook Messenger
 @@||api.facebook.com^$important

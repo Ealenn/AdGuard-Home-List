@@ -6,5 +6,4 @@
 @@||market.spotify.com^$important
 @@||spclient.wg.spotify.com^$important
 @@||ap.spotify.com^$important
-@@||audio-ake.spotify.com.edgesuite.net^$important
-@@||audio4-ak.spotify.com.edgesuite.net^$important
+@@||spotify.com.edgesuite.net^$important

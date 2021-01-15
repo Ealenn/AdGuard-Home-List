@@ -1,10 +1,11 @@
 # Amazon Prime Video 
-@@||eu.api.amazonvideo.com^$important
+@@||api.amazonvideo.com^$important
 @@||fls-eu.amazon.com^$important
 @@||fls-na.amazon.com^$important
+@@||atv-ext-eu.amazon.com^$important
 
 # Twitch
-@@||twitch.tv^$important
+@@||www.twitch.tv^$important
 @@||api.twitch.tv^$important
 
 # Amazon Kindle
@@ -18,11 +19,8 @@
 @@||us-east-1.amazonaws.com^$important
 
 # AWS
-@@||amazonaws.com^$important
 @@||s3.amazonaws.com^$important
-@@||cloudfront.net^$important
 
 # Amazon CDN
 @@||cloudfront.net^$important
-@@||amazonaws.com^$important
 @@||images-amazon.com^$important

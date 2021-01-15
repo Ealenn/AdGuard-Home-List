@@ -1,0 +1,3 @@
+# Wikimedia
+@@||wikimedia.org^$important
+@@||wikipedia.org^$important
