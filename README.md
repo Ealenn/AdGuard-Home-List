@@ -9,6 +9,7 @@ Varied and carefully selected filter lists and consolidates for use in AdGuard H
 	* [Contains](#Contains)
 		* [Services](#Services)
 		* [Community](#Community)
+* [DNS Providers](#DNSProviders)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -88,3 +89,31 @@ These lists are downloaded, cleaned and combined during a release.
 - [mitchellkrogza/Phishing.Database](https://github.com/mitchellkrogza/Phishing.Database) ![GitHub Repo stars](https://img.shields.io/github/stars/mitchellkrogza/Phishing.Database?style=flat-square)
 - [Yhonay/antipopads](https://github.com/Yhonay/antipopads) ![GitHub Repo stars](https://img.shields.io/github/stars/Yhonay/antipopads?style=flat-square)
 - [mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites](https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites) ![GitHub Repo stars](https://img.shields.io/github/stars/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites?style=flat-square)
+- [blocklistproject/Lists](https://github.com/blocklistproject/Lists) ![GitHub Repo stars](https://img.shields.io/github/stars/blocklistproject/Lists?style=flat-square)
+
+## <a name='DNSProviders'></a>DNS Providers
+
+```sh
+# AdGuard
+94.140.14.14
+94.140.15.15
+https://dns.adguard.com/dns-query
+tls://dns.adguard.com
+# Google
+8.8.8.8
+8.8.4.4
+https://dns.google/dns-query
+tls://dns.google
+# Cisco OpenDNS
+208.67.222.222
+208.67.220.220
+https://doh.opendns.com/dns-query
+# Cloudflare DNS
+1.1.1.1
+1.0.0.1
+https://dns.cloudflare.com/dns-query
+tls://1.1.1.1
+# Dyn DNS
+216.146.35.35
+216.146.36.36
+```
