@@ -10,3 +10,4 @@
 @@||yt3.ggpht.com^$important
 @@||manifest.googlevideo.com^$important
 @@||redirector.googlevideo.com^$important
+@@||googlevideo.com^$important

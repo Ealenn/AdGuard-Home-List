@@ -9,3 +9,4 @@
 @@||amzn.to^$important
 @@||amzn.com^$important
 @@||j.mp^$important
+@@||buff.ly^$important
