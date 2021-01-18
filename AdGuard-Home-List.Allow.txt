@@ -8,6 +8,7 @@
 @@||amzn.to^$important
 @@||amzn.com^$important
 @@||j.mp^$important
+@@||buff.ly^$important
 @@||akamaihd.net^$important
 @@||akamaitechnologies.com^$important
 @@||akamaized.net^$important
@@ -27,6 +28,9 @@
 @@||jsdelivr.net^$important
 @@||akadns.net^$important
 @@||no-ip.com^$important
+@@||gouv.fr^$important
+@@||gouvernement.fr^$important
+@@||elysee.fr^$important
 @@||lm.licenses.adobe.com^$important
 @@||activate.adobe.com^$important
 @@||gravatar.com^$important
@@ -244,6 +248,7 @@
 @@||yt3.ggpht.com^$important
 @@||manifest.googlevideo.com^$important
 @@||redirector.googlevideo.com^$important
+@@||googlevideo.com^$important
 @@||upload.facebook.com^$important
 @@||rupload.facebook.com^$important
 @@||creative.ak.fbcdn.net^$important
