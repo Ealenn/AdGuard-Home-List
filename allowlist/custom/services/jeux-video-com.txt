@@ -1,0 +1,3 @@
+# Jeuxvideo.com
+@@||image.jeuxvideo.com^$important
+@@||static.jvc.gg^$important

@@ -1,0 +1,4 @@
+# Pinterest
+@@||www.pinterest.com^$important
+@@||www.pinterest.fr^$important
+@@||pinimg.com^$important

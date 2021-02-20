@@ -1,8 +1,11 @@
-﻿using Ealen.AdGuard.App.Services.Abstractions;
+﻿using Ealen.AdGuard.App.Models;
+using Ealen.AdGuard.App.Services.Abstractions;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Ealen.AdGuard.App.Services
@@ -19,9 +22,6 @@ namespace Ealen.AdGuard.App.Services
         public async Task PurgeListAsync(string filePath)
         {
             EnsureDirectory(filePath);
-            using var stream = new FileStream(filePath, FileMode.OpenOrCreate);
-            await stream.FlushAsync();
-
             _logger.LogInformation($"{filePath} was now empty");
         }
 
@@ -40,11 +40,29 @@ namespace Ealen.AdGuard.App.Services
 
         private void EnsureDirectory(string filePath)
         {
-            if (!File.Exists(filePath))
+            if (File.Exists(filePath))
             {
-                Directory.CreateDirectory(filePath.Replace(Path.GetFileName(filePath), ""));
-                File.Create(filePath).Close();
+                File.Delete(filePath);
             }
+
+            Directory.CreateDirectory(filePath.Replace(Path.GetFileName(filePath), ""));
+            File.Create(filePath).Close();
+        }
+        public async Task GenerateBadgeAsync(string filePath, int elements, string label, string color)
+        {
+            EnsureDirectory(filePath);
+
+            var numberFormat = new CultureInfo("en-US", false).NumberFormat;
+            numberFormat.CurrencySymbol = string.Empty;
+            numberFormat.CurrencyDecimalDigits = 0;
+            var badge = new Badge(
+                label,
+                elements.ToString("c", numberFormat),
+                color);
+
+            using var stream = new FileStream(filePath, FileMode.OpenOrCreate);
+            using var streamWriter = new StreamWriter(stream);
+            await streamWriter.WriteAsync(JsonSerializer.Serialize(badge));
         }
     }
 }

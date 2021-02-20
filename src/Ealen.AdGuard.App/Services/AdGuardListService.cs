@@ -10,10 +10,11 @@ namespace Ealen.AdGuard.App.Services
 {
     public class AdGuardListService : IAdGuardListService
     {
+        private const bool DEBUG = false;
         public HashSet<string> AllowList { get; } = new HashSet<string>();
         public HashSet<string> BlockList { get; } = new HashSet<string>();
 
-        private ILogger<AdGuardListService> _logger;
+        private readonly ILogger<AdGuardListService> _logger;
 
         public AdGuardListService(ILogger<AdGuardListService> logger)
         {
@@ -55,7 +56,7 @@ namespace Ealen.AdGuard.App.Services
             return string.Empty;
         }
 
-        public async Task<IAdGuardListService> FromFileAsync(Stream stream, FileProviderFormat inputFormat, FileProviderType inputType)
+        public async Task<IAdGuardListService> FromFileAsync(Stream stream, FileProviderFormat inputFormat, FileProviderType inputType, string comment = "")
         {
             int currentElementInLists = AllowList.Count + BlockList.Count;
             using var fileStream = new StreamReader(stream);
@@ -71,10 +72,10 @@ namespace Ealen.AdGuard.App.Services
                 switch (inputType)
                 {
                     case FileProviderType.ALLOW_LIST:
-                        AllowList.Add(currentLine);
+                        AllowList.Add(currentLine + comment);
                         break;
                     case FileProviderType.BLOCK_LIST:
-                        BlockList.Add(currentLine);
+                        BlockList.Add(currentLine + comment);
                         break;
                 }
             }
@@ -89,7 +90,11 @@ namespace Ealen.AdGuard.App.Services
             foreach (var file in files)
             {
                 using var stream = new StreamReader(file);
-                await FromFileAsync(stream.BaseStream, inputFormat, inputType);
+                await FromFileAsync(
+                    stream.BaseStream,
+                    inputFormat,
+                    inputType,
+                    DEBUG ? $"#{file}" : string.Empty);
             }
 
             return this;
@@ -121,7 +126,11 @@ namespace Ealen.AdGuard.App.Services
             {
                 using WebClient client = new WebClient();
                 using Stream stream = client.OpenRead(url);
-                await FromFileAsync(stream, inputFormat, inputType);
+                await FromFileAsync(
+                    stream,
+                    inputFormat,
+                    inputType,
+                    DEBUG ? $"#{url}" : string.Empty);
             } catch (WebException webException)
             {
                 _logger.LogError($"Unable to dowload list in {url}", webException);

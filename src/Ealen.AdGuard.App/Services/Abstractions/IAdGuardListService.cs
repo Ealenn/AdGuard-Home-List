@@ -10,7 +10,7 @@ namespace Ealen.AdGuard.App.Services.Abstractions
         HashSet<string> BlockList { get; }
 
         Task<IAdGuardListService> FromFilesAsync(string path, string pattern, FileProviderFormat inputFormat, FileProviderType inputType);
-        Task<IAdGuardListService> FromFileAsync(Stream stream, FileProviderFormat inputFormat, FileProviderType inputType);
+        Task<IAdGuardListService> FromFileAsync(Stream stream, FileProviderFormat inputFormat, FileProviderType inputType, string comment = "");
         Task<IAdGuardListService> FromFileListWebAsync(Stream stream, FileProviderFormat inputFormat, FileProviderType inputType);
         Task<IAdGuardListService> FromWebAsync(string url, FileProviderFormat inputFormat, FileProviderType inputType);
         string FileLineTransform(string line, FileProviderFormat inputFormat, FileProviderType inputType);

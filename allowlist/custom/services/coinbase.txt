@@ -1,0 +1,3 @@
+# Coinbase
+@@||coinbase.com^$important
+@@||api.coinbase.com^$important

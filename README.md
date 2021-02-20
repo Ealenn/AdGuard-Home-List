@@ -1,5 +1,8 @@
 # AdGuard Home - List
 
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/badge-allow.json?style=for-the-badge&logo=firefox)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/badge-block.json?style=for-the-badge&logo=AdBlock)
+
 Varied and carefully selected filter lists and consolidates for use in AdGuard Home. (Updated every day at 4 AM)
 
 <!-- vscode-markdown-toc -->
@@ -86,7 +89,6 @@ These lists are downloaded, cleaned and combined during a release.
 - [StevenBlack/hosts](https://github.com/StevenBlack/hosts) ![GitHub Repo stars](https://img.shields.io/github/stars/StevenBlack/hosts?style=flat-square)
 - [anudeepND/blacklist](https://github.com/anudeepND/blacklist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/blacklist?style=flat-square)
 - [notracking/hosts-blocklists](https://github.com/notracking/hosts-blocklists) ![GitHub Repo stars](https://img.shields.io/github/stars/notracking/hosts-blocklists?style=flat-square)
-- [mitchellkrogza/Phishing.Database](https://github.com/mitchellkrogza/Phishing.Database) ![GitHub Repo stars](https://img.shields.io/github/stars/mitchellkrogza/Phishing.Database?style=flat-square)
 - [Yhonay/antipopads](https://github.com/Yhonay/antipopads) ![GitHub Repo stars](https://img.shields.io/github/stars/Yhonay/antipopads?style=flat-square)
 - [mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites](https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites) ![GitHub Repo stars](https://img.shields.io/github/stars/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites?style=flat-square)
 - [blocklistproject/Lists](https://github.com/blocklistproject/Lists) ![GitHub Repo stars](https://img.shields.io/github/stars/blocklistproject/Lists?style=flat-square)
