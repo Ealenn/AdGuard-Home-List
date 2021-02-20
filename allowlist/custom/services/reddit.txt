@@ -1,2 +1,3 @@
 # Reddit
 @@||reddit.com^$important
+@@||redditmedia.com^$important

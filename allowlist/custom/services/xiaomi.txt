@@ -1,0 +1,2 @@
+@@||api.account.xiaomi.com^$important
+@@||api.xiaomi.com^$important

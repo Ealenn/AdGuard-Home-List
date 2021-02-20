@@ -15,6 +15,7 @@
 @@||clients6.google.com^$important
 
 # Google Others
+@@||clients.l.google.com^$important
 @@||cse.google.com^$important
 @@||gstatic.com^$important
 @@||geo3.ggpht.com^$important

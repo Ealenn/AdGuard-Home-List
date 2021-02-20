@@ -3,7 +3,6 @@ using Ealen.AdGuard.App.Services.Abstractions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
 
@@ -20,7 +19,7 @@ namespace Ealen.AdGuard.App
                 .BuildServiceProvider();
 
             // Args
-            var currentDirectory = Environment.CurrentDirectory;
+            var currentDirectory = args[0] ?? Environment.CurrentDirectory;
 
             // Services
             var adGuardListService = serviceProvider.GetService<IAdGuardListService>();
@@ -52,6 +51,20 @@ namespace Ealen.AdGuard.App
 
             await listService.PurgeListAsync(Path.Combine(currentDirectory, "public", "AdGuard-Home-List.Block.txt"));
             await listService.StoreListAsync(Path.Combine(currentDirectory, "public", "AdGuard-Home-List.Block.txt"), adGuardListService.BlockList);
+
+            // Badges
+            await listService.GenerateBadgeAsync(
+                Path.Combine(currentDirectory, "public", "badge-allow.json"),
+                adGuardListService.AllowList.Count,
+                "Allow",
+                "green"
+            );
+            await listService.GenerateBadgeAsync(
+                Path.Combine(currentDirectory, "public", "badge-block.json"),
+                adGuardListService.BlockList.Count,
+                "Block",
+                "red"
+            );
         }
     }
 }
