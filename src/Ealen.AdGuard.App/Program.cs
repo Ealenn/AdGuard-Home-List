@@ -19,7 +19,7 @@ namespace Ealen.AdGuard.App
                 .BuildServiceProvider();
 
             // Args
-            var currentDirectory = args[0] ?? Environment.CurrentDirectory;
+            var currentDirectory = args.Length == 0 ? Environment.CurrentDirectory : args[0];
 
             // Services
             var adGuardListService = serviceProvider.GetService<IAdGuardListService>();
