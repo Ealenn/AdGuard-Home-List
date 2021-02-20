@@ -3,7 +3,7 @@
 ![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/badge-allow.json&style=for-the-badge&logo=firefox)
 ![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/badge-block.json&style=for-the-badge&logo=AdBlock)
 
-Varied and carefully selected filter lists and consolidates for use in AdGuard Home. (Updated every day at 4 AM)
+Varied and carefully selected filter lists and consolidates for use in [AdGuard Home](https://ealen.dev/posts/raspberry/dns-sinkhole/). (Updated every day at 4 AM)
 
 <!-- vscode-markdown-toc -->
 * [How to use this project](#Howtousethisproject)
@@ -79,6 +79,7 @@ These lists are downloaded, cleaned and combined during a release.
 - [firebog.net](https://firebog.net)
 - [disconnect.me](https://disconnect.me)
 - [phishing.army](https://phishing.army)
+- [oisd](https://oisd.nl)
 
 #### <a name='Community'></a>Community
 
@@ -92,6 +93,8 @@ These lists are downloaded, cleaned and combined during a release.
 - [Yhonay/antipopads](https://github.com/Yhonay/antipopads) ![GitHub Repo stars](https://img.shields.io/github/stars/Yhonay/antipopads?style=flat-square)
 - [mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites](https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites) ![GitHub Repo stars](https://img.shields.io/github/stars/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites?style=flat-square)
 - [blocklistproject/Lists](https://github.com/blocklistproject/Lists) ![GitHub Repo stars](https://img.shields.io/github/stars/blocklistproject/Lists?style=flat-square)
+- [Spam404/lists](https://github.com/Spam404/lists) ![GitHub Repo stars](https://img.shields.io/github/stars/Spam404/lists?style=flat-square)
+- [Perflyst/PiHoleBlocklist](https://github.com/Perflyst/PiHoleBlocklist) ![GitHub Repo stars](https://img.shields.io/github/stars/Perflyst/PiHoleBlocklist?style=flat-square)
 
 ## <a name='DNSProviders'></a>DNS Providers
 

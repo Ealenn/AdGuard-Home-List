@@ -5,3 +5,5 @@ https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 https://phishing.army/download/phishing_army_blocklist.txt
+https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+https://dbl.oisd.nl/basic
