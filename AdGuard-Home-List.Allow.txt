@@ -125,7 +125,6 @@
 @@||fbcdn.net^$important
 @@||api.facebook.com^$important
 @@||edge-mqtt.facebook.com^$important
-@@||graph.facebook.com^$important
 @@||mqtt.c10r.facebook.com^$important
 @@||portal.fb.com^$important
 @@||star.c10r.facebook.com^$important
@@ -138,7 +137,6 @@
 @@||6-edge-chat.facebook.com^$important
 @@||edge-chat.facebook.com^$important
 @@||mqtt-mini.facebook.com^$important
-@@||graph.instagram.com^$important
 @@||instagram.c10r.facebook.com^$important
 @@||cdninstagram.com^$important
 @@||scontent.xx.fbcdn.net^$important
