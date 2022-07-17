@@ -1,3 +1,7 @@
 # Adobe licence verification
 @@||lm.licenses.adobe.com^$important
 @@||activate.adobe.com^$important
+
+# Adobe Cloud Privacy
+# https://www.adobe.com/privacy/experience-cloud.html
+@@||omtrdc.net^$important

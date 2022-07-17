@@ -1,2 +1,9 @@
+# Xiaomi
+@@||www.mi.com^$important
+@@||account.xiaomi.com^$important
+@@||ams.buy.mi.com^$important
+
+# API
 @@||api.account.xiaomi.com^$important
 @@||api.xiaomi.com^$important
+@@||app.chat.global.xiaomi.net^$important
