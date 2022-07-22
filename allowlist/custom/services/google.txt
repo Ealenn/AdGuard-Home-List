@@ -3,6 +3,9 @@
 @@||www.google.fr^$important
 @@||suggestqueries.google.com
 
+# Firebase
+@@||firebaselogging-pa.googleapis.com^$important
+
 # Android
 @@||0.client-channel.google.com^$important
 @@||2.android.pool.ntp.org^$important

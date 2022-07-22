@@ -61,6 +61,10 @@
 @@||ui.skype.com^$important
 @@||apps.skype.com^$important
 
+# Teams
+@@||c.msn.com^$important
+@@||msedge.net^$important
+
 # Office
 @@||office.com^$important
 @@||office.net^$important
