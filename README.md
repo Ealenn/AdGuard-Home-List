@@ -96,7 +96,7 @@ These lists are downloaded, cleaned and combined during a release.
 - [blocklistproject/Lists](https://github.com/blocklistproject/Lists) ![GitHub Repo stars](https://img.shields.io/github/stars/blocklistproject/Lists?style=flat-square)
 - [Spam404/lists](https://github.com/Spam404/lists) ![GitHub Repo stars](https://img.shields.io/github/stars/Spam404/lists?style=flat-square)
 - [Perflyst/PiHoleBlocklist](https://github.com/Perflyst/PiHoleBlocklist) ![GitHub Repo stars](https://img.shields.io/github/stars/Perflyst/PiHoleBlocklist?style=flat-square)
-- [hectorm/hblock](hblock.molinero.dev) ![GitHub Repo stars](https://img.shields.io/github/stars/hectorm/hblock?style=flat-square)
+- [hectorm/hblock](https://hblock.molinero.dev) ![GitHub Repo stars](https://img.shields.io/github/stars/hectorm/hblock?style=flat-square)
 - [anudeepND/whitelist](https://github.com/anudeepND/whitelist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/whitelist?style=flat-square)
 
 ## DNS Providers
