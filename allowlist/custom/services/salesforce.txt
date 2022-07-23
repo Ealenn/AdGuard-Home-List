@@ -3,3 +3,6 @@
 @@||login.salesforce.com^$important
 @@||c.salesforce.com^$important
 @@||edge2.salesforce.com^$important
+@@||verify.salesforce.com^$important
+@@||developer.salesforce.com^$important
+@@||vaas-ve-edge-frankfurt.salesforce.com^$important
