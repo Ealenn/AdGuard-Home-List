@@ -21,6 +21,7 @@
 # AWS
 @@||s3.amazonaws.com^$important
 @@||compute.amazonaws.com^$important
+@@||fls-na.amazon.com^$important
 
 # Amazon CDN
 @@||cloudfront.net^$important

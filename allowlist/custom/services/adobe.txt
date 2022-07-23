@@ -5,3 +5,6 @@
 # Adobe Cloud Privacy
 # https://www.adobe.com/privacy/experience-cloud.html
 @@||omtrdc.net^$important
+@@||mktoresp.com^$important
+# https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html
+# @@||demdex.net^$important
