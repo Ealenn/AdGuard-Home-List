@@ -132,7 +132,7 @@ export class GenerateCommand implements CommandRunner {
       }
       fileLines.push(line);
     }
-    return fileLines.join('\r');
+    return fileLines.join('\n');
   }
 
   @Option({
