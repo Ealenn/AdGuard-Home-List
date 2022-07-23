@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Ealen.AdGuard.App": {
-      "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\rmarchandise\\Documents\\Github\\AdGuard-Home-List"
-    }
-  }
-}

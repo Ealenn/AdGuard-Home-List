@@ -1,0 +1,56 @@
+{
+  "name": "guard-cli",
+  "version": "0.0.1",
+  "description": "Generate AdGuard Lists",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ealenn/AdGuard-Home-List.git"
+  },
+  "author": "Rudy Marchandise",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Ealenn/AdGuard-Home-List/issues"
+  },
+  "homepage": "https://github.com/Ealenn/AdGuard-Home-List#readme",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "test:e2e": "jest --config ./test/jest-e2e.json"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.x.x",
+    "@nestjs/core": "^8.x.x",
+    "axios": "^0.27.x",
+    "axios-retry": "^3.x.x",
+    "reflect-metadata": "^0.1.x",
+    "rimraf": "^3.x.x",
+    "rxjs": "^7.x.x"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^8.x.x",
+    "@nestjs/schematics": "^8.x.x",
+    "@types/node": "^16.x.x",
+    "@typescript-eslint/eslint-plugin": "^5.x.x",
+    "@typescript-eslint/parser": "^5.x.x",
+    "eslint": "^8.x.x",
+    "eslint-config-prettier": "^8.x.x",
+    "eslint-plugin-prettier": "^4.x.x",
+    "prettier": "^2.x.x",
+    "source-map-support": "^0.5.x",
+    "supertest": "^6.x.x",
+    "ts-loader": "^9.x.x",
+    "ts-node": "^10.x.x",
+    "tsconfig-paths": "4.x.x",
+    "typescript": "^4.x.x"
+  }
+}
