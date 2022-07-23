@@ -34,6 +34,7 @@ jobs:
         --badge badge-allow.json \
         --external ./allowlist/external \
         --custom ./allowlist/custom \
+        --concatExternal ./allowlist/concat \
         --convertToAllow \
         --debug \
         --output ./public
@@ -44,6 +45,7 @@ jobs:
         --badge badge-block.json \
         --external ./blocklist/external \
         --custom ./blocklist/custom \
+        --concatExternal ./blocklist/concat \
         --debug \
         --output ./public
     - name: Deploy
