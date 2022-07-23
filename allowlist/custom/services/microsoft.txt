@@ -1,6 +1,7 @@
 # Microsoft
 
 # Azure Public
+@@||portal.azure.com^$important
 @@||appcenter.ms^$important
 @@||aadcdn.microsoftonline-p.com^$important
 @@||aka.ms^$important
@@ -35,6 +36,7 @@
 @@||windowsazure.us^$important
 
 # Live 
+@@||login.live.com^$important
 @@||xbox.ipv6.microsoft.com^$important
 @@||xboxexperiencesprod.experimentation.xboxlive.com^$important
 @@||xflight.xboxlive.com^$important
@@ -94,7 +96,7 @@
 @@||displaycatalog.mp.microsoft.com^$important
 @@||1drv.com^$important
 
-# CDN 
+# CDN
 @@||aspnetcdn.com^$important
 @@||delivery.mp.microsoft.com^$important
 @@||aka.ms^$important
