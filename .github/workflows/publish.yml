@@ -36,7 +36,6 @@ jobs:
         --custom ./allowlist/custom \
         --concatExternal ./allowlist/concat \
         --convertToAllow \
-        --debug \
         --output ./public
     - name: Generate BlockList
       run: |
@@ -46,7 +45,6 @@ jobs:
         --external ./blocklist/external \
         --custom ./blocklist/custom \
         --concatExternal ./blocklist/concat \
-        --debug \
         --output ./public
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
@@ -55,3 +53,4 @@ jobs:
         folder: public
         clean: true
         single-commit: true
+        force: true
