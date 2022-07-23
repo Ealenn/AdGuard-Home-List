@@ -2,7 +2,7 @@
 name: ✔️ Allow Report
 about: Add domain on AllowList
 title: "[ALLOW] ?"
-labels: bug
+labels: allowlist
 assignees: Ealenn
 
 ---

@@ -6,13 +6,15 @@
 Varied and carefully selected filter lists and consolidates for use in [AdGuard Home](https://ealen.dev/posts/raspberry/dns-sinkhole/). (Updated every day at 4 AM)
 
 <!-- vscode-markdown-toc -->
-* [How to use this project](#Howtousethisproject)
-* [Custom List Provider](#CustomListProvider)
-* [External List Provider](#ExternalListProvider)
-	* [Contains](#Contains)
-		* [Services](#Services)
-		* [Community](#Community)
-* [DNS Providers](#DNSProviders)
+- [AdGuard Home - List](#adguard-home---list)
+	- [How to use this project](#how-to-use-this-project)
+	- [Custom List Provider](#custom-list-provider)
+	- [External List Provider](#external-list-provider)
+		- [Contains](#contains)
+			- [Services](#services)
+			- [Community](#community)
+	- [DNS Providers](#dns-providers)
+	- [Local](#local)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -20,7 +22,7 @@ Varied and carefully selected filter lists and consolidates for use in [AdGuard 
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-## <a name='Howtousethisproject'></a>How to use this project
+## How to use this project
 
 Once you have AdGuard Home ready and are logged in, use its main menu to add one blocklist and one allowlist.
 
@@ -32,11 +34,11 @@ https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/AdGuard-Home
 https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/AdGuard-Home-List.Allow.txt
 ```
 
-## <a name='CustomListProvider'></a>Custom List Provider
+## Custom List Provider
 
-The folders `allowlist/custom/*` and `blocklist/custom/*` contains all custom lists **in AdGuard format**.
+The folders `allowlist/custom/*` and `blocklist/custom/*` contains all custom lists.
 
-## <a name='ExternalListProvider'></a>External List Provider
+## External List Provider
 
 The external providers are configured in files named like this : `{TYPE}.external.{FORMAT}.list`
 
@@ -68,20 +70,19 @@ The ***.list** file contains the urls of the external lists to add.
 
 These lists are downloaded, cleaned and combined during a release.
 
-### <a name='Contains'></a>Contains
+### Contains
 
-#### <a name='Services'></a>Services
+#### Services
 
 - [AdGuardSDNSFilter/Filters](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
 - [Adaway](https://adaway.org)
-- [EasyList](https://easylist.to)
 - [Yoyo.org](https://pgl.yoyo.org/adservers/)
 - [firebog.net](https://firebog.net)
 - [disconnect.me](https://disconnect.me)
 - [phishing.army](https://phishing.army)
 - [oisd](https://oisd.nl)
 
-#### <a name='Community'></a>Community
+#### Community
 
 - [Curben Urlhaus Filter](https://gitlab.com/curben/urlhaus-filter)
 - [frogeye.fr](https://hostfiles.frogeye.fr/)
@@ -95,8 +96,10 @@ These lists are downloaded, cleaned and combined during a release.
 - [blocklistproject/Lists](https://github.com/blocklistproject/Lists) ![GitHub Repo stars](https://img.shields.io/github/stars/blocklistproject/Lists?style=flat-square)
 - [Spam404/lists](https://github.com/Spam404/lists) ![GitHub Repo stars](https://img.shields.io/github/stars/Spam404/lists?style=flat-square)
 - [Perflyst/PiHoleBlocklist](https://github.com/Perflyst/PiHoleBlocklist) ![GitHub Repo stars](https://img.shields.io/github/stars/Perflyst/PiHoleBlocklist?style=flat-square)
+- [hectorm/hblock](hblock.molinero.dev) ![GitHub Repo stars](https://img.shields.io/github/stars/hectorm/hblock?style=flat-square)
+- [anudeepND/whitelist](https://github.com/anudeepND/whitelist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/whitelist?style=flat-square)
 
-## <a name='DNSProviders'></a>DNS Providers
+## DNS Providers
 
 ```sh
 # AdGuard
@@ -121,4 +124,27 @@ tls://1.1.1.1
 # Dyn DNS
 216.146.35.35
 216.146.36.36
+```
+
+## Local
+
+```sh
+node ./modules/guard-cli/dist/main.js generate \
+--name AdGuard-Home-List.Allow.txt \
+--badge badge-allow.json \
+--external ./allowlist/external \
+--custom ./allowlist/custom \
+--concatExternal ./allowlist/concat \
+--convertToAllow \
+--debug \
+--output ./dist
+
+node ./modules/guard-cli/dist/main.js generate \
+--name AdGuard-Home-List.Block.txt \
+--badge badge-block.json \
+--external ./blocklist/external \
+--custom ./blocklist/custom \
+--concatExternal ./blocklist/concat \
+--debug \
+--output ./dist
 ```

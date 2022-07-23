@@ -13,19 +13,42 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/setup-dotnet@v2
+    - name: Use Node
+      uses: actions/setup-node@v3
       with:
-        dotnet-version: '3.1.x'
-    - name: Install dependencies
-      run: dotnet restore AdGuard-Home-List.sln
-    - name: Build
-      run: dotnet build AdGuard-Home-List.sln --configuration Release --no-restore
-    - name: Publish
-      run: dotnet publish --configuration Release --no-build --no-restore --nologo -o publish
-    - name: Run
-      run: ./publish/Ealen.AdGuard.App
+        node-version: 16
+    - name: Install & Build
+      run: |
+        mkdir public
+        cd ./modules/guard-cli
+        npm ci
+        npm run build
+      env:
+        CI: true
+    - name: Generate AllowList
+      run: |
+        node ./modules/guard-cli/dist/main.js generate \
+        --name AdGuard-Home-List.Allow.txt \
+        --badge badge-allow.json \
+        --external ./allowlist/external \
+        --custom ./allowlist/custom \
+        --concatExternal ./allowlist/concat \
+        --convertToAllow \
+        --output ./public
+    - name: Generate BlockList
+      run: |
+        node ./modules/guard-cli/dist/main.js generate \
+        --name AdGuard-Home-List.Block.txt \
+        --badge badge-block.json \
+        --external ./blocklist/external \
+        --custom ./blocklist/custom \
+        --concatExternal ./blocklist/concat \
+        --output ./public
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+        folder: public
+        clean: true
+        single-commit: true
+        force: true

@@ -2,7 +2,7 @@
 name: 🚫 Block Report
 about: Add domain on BlockList
 title: "[BLOCK] ?"
-labels: bug
+labels: blocklist
 assignees: Ealenn
 
 ---
