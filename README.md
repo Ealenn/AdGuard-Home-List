@@ -2,6 +2,7 @@
 
 ![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/badge-allow.json&style=for-the-badge&logo=firefox)
 ![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/badge-block.json&style=for-the-badge&logo=AdBlock)
+[![Explorer](https://img.shields.io/badge/view-explorer_website-blue?logo=firefox&style=for-the-badge)](https://adguard-home-list.herokuapp.com/)
 
 Varied and carefully selected filter lists and consolidates for use in [AdGuard Home](https://ealen.dev/posts/raspberry/dns-sinkhole/). (Updated every day at 4 AM)
 
@@ -13,6 +14,7 @@ Varied and carefully selected filter lists and consolidates for use in [AdGuard 
 		- [Contains](#contains)
 			- [Services](#services)
 			- [Community](#community)
+			- [AllowList](#allowlist)
 	- [DNS Providers](#dns-providers)
 	- [Local](#local)
 
@@ -75,6 +77,7 @@ These lists are downloaded, cleaned and combined during a release.
 #### Services
 
 - [AdGuardSDNSFilter/Filters](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
+- [AdguardTeam/cname-trackers](https://github.com/AdguardTeam/cname-trackers) ![GitHub Repo stars](https://img.shields.io/github/stars/AdguardTeam/cname-trackers?style=flat-square)
 - [Adaway](https://adaway.org)
 - [Yoyo.org](https://pgl.yoyo.org/adservers/)
 - [firebog.net](https://firebog.net)
@@ -97,7 +100,10 @@ These lists are downloaded, cleaned and combined during a release.
 - [Spam404/lists](https://github.com/Spam404/lists) ![GitHub Repo stars](https://img.shields.io/github/stars/Spam404/lists?style=flat-square)
 - [Perflyst/PiHoleBlocklist](https://github.com/Perflyst/PiHoleBlocklist) ![GitHub Repo stars](https://img.shields.io/github/stars/Perflyst/PiHoleBlocklist?style=flat-square)
 - [hectorm/hblock](https://hblock.molinero.dev) ![GitHub Repo stars](https://img.shields.io/github/stars/hectorm/hblock?style=flat-square)
+
+#### AllowList 
 - [anudeepND/whitelist](https://github.com/anudeepND/whitelist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/whitelist?style=flat-square)
+- [hl2guide/AdGuard-Home-Whitelist](https://github.com/hl2guide/AdGuard-Home-Whitelist) ![GitHub Repo stars](https://img.shields.io/github/stars/hl2guide/AdGuard-Home-Whitelist?style=flat-square) (Only selected lists)
 
 ## DNS Providers
 

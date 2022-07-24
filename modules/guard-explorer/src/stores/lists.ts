@@ -31,7 +31,7 @@ export const listsStore = defineStore({
           "https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/AdGuard-Home-List.Allow.txt"
         )
         .then((response) => {
-          this.progress += 40;
+          this.progress += 50;
           const list = response.data.split("\n");
           this.allowListSize = list.length;
           this.list = this.list.concat(
@@ -41,32 +41,33 @@ export const listsStore = defineStore({
             }))
           );
 
-          this.progress += 10;
+          this.progress += 50;
           if (this.progress === 100) {
             this.loading = false;
           }
         });
 
-      axios
-        .get(
-          "https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/AdGuard-Home-List.Block.txt"
-        )
-        .then((response) => {
-          this.progress += 40;
-          const list = response.data.split("\n");
-          this.blockListSize = list.length;
-          this.list = this.list.concat(
-            list.map((item: string) => ({
-              rule: item,
-              from: "",
-            }))
-          );
+      // TODO: Resolve this perf issue
+      // axios
+      //   .get(
+      //     "https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/AdGuard-Home-List.Block.txt"
+      //   )
+      //   .then((response) => {
+      //     this.progress += 40;
+      //     const list = response.data.split("\n");
+      //     this.blockListSize = list.length;
+      //     this.list = this.list.concat(
+      //       list.map((item: string) => ({
+      //         rule: item,
+      //         from: "",
+      //       }))
+      //     );
 
-          this.progress += 10;
-          if (this.progress === 100) {
-            this.loading = false;
-          }
-        });
+      //     this.progress += 10;
+      //     if (this.progress === 100) {
+      //       this.loading = false;
+      //     }
+      //   });
     },
     search(value: string) {
       this.searchItem = value;
