@@ -11,3 +11,8 @@
 @@||j.mp^$important
 @@||buff.ly^$important
 @@||tidd.ly^$important
+@@||cutt.ly^$important
+@@||shorturl.at^$important
+@@||tinyurl.com^$important
+@@||short.io^$important
+@@||snip.ly^$important

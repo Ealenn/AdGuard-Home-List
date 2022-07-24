@@ -15,6 +15,7 @@
 
         <n-statistic label="Blocked" :value="blockListSize">
           <template #prefix>
+            Only the allowlist is loaded due to performance issue
             <n-icon color="#FF5733 " :component="LockClosedOutline" />
           </template>
         </n-statistic>
