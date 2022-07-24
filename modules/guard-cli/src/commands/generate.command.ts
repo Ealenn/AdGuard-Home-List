@@ -113,7 +113,10 @@ export class GenerateCommand implements CommandRunner {
       const badge: Badge = {
         schemaVersion: 1,
         label: options.convertToAllow ? 'Allow' : 'Block',
-        message: this._list.export().size.toString(),
+        message: this._list
+          .export()
+          .size.toString()
+          .replace(/\B(?=(\d{3})+(?!\d))/g, ','),
         color: options.convertToAllow ? 'green' : 'red',
       };
       this.fileService.ReplaceFile(
