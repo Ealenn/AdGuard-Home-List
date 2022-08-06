@@ -16,3 +16,4 @@
 @@||tinyurl.com^$important
 @@||short.io^$important
 @@||snip.ly^$important
+@@||kutt.it^$important
