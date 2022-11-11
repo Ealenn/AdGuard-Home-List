@@ -2374,3 +2374,4 @@
 @@||connectivitycheck.gstatic.com^$important
 @@||connectivitycheck.android.com^$important
 @@||www.msftconnecttest.com^$important
+@@||swscan.apple.com^$important
