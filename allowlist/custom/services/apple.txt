@@ -9,8 +9,20 @@
 @@||itunes.apple.com.edgesuite.net^$important
 @@||itunes.apple.com^$important
 
+# Tools
+@@||swscan.apple.com^$important
+@@||swdownload.apple.com^$important
+@@||xp.apple.com^$important
+
 # Apple CDN
 @@||cdn-apple.com^$important
+@@||updates.cdn-apple.com^$important
+@@||updates-http.cdn-apple.com^$important
+@@||swcdn.apple.com^$important
+
+# Time
+@@||time-ios.apple.com^$important
+@@||time.apple.com^$important
 
 # Apple DNS
 @@||origin-apple.com.akadns.net^$important
