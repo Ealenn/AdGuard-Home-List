@@ -1,0 +1,3 @@
+# Urban VPN
+||analytics-toolbar.urban-vpn.com^$important
+||anti-mining-protection-toolbar.urban-vpn.com^$important
