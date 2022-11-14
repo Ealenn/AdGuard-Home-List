@@ -2559,3 +2559,5 @@
 @@||twitch.tv^$important
 @@||twitchcdn.net^$important
 @@||twitchsvc.net^$important
+@@||www.dollartree.com^$important
+@@||www.familydollar.com^$important
