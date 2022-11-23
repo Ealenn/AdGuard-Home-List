@@ -11,3 +11,4 @@
 @@||manifest.googlevideo.com^$important
 @@||redirector.googlevideo.com^$important
 @@||googlevideo.com^$important
+@@||yt4.ggpht.com^$important
