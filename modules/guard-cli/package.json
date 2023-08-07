@@ -30,7 +30,7 @@
   "dependencies": {
     "@nestjs/common": "^8.x.x",
     "@nestjs/core": "^8.x.x",
-    "axios": "^0.27.x",
+    "axios": "^1.x",
     "axios-retry": "^3.x.x",
     "nest-commander": "^2.x.x",
     "reflect-metadata": "^0.1.x",

@@ -52,7 +52,11 @@ export class FileService {
     }
 
     try {
-      const response = await Axios.get(filePath, {});
+      const response = await Axios.get(filePath, {
+        responseType: 'text',
+        responseEncoding: 'UTF-8',
+        decompress: true,
+      });
       if (response.status !== 200) {
         this.logService.warn(
           `List "${filePath}" not found.`,
