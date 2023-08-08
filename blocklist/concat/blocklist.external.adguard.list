@@ -1,5 +1,5 @@
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 https://raw.githubusercontent.com/curbengh/urlhaus-filter/master/urlhaus-filter-agh.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
-https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers.txt
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
