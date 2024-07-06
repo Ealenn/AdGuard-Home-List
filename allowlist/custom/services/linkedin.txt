@@ -1,2 +1,3 @@
 # Linkedin
 @@||www.linkedin.com^$important
+@@||mid4.linkedin.com^$important
