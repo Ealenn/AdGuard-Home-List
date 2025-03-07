@@ -17,3 +17,5 @@
 @@||short.io^$important
 @@||snip.ly^$important
 @@||kutt.it^$important
+@@||rebrand.ly^$important
+@@||rb.gy^$important
