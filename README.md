@@ -1,12 +1,10 @@
 # AdGuard Home - List
 
-![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/badge-allow.json&style=for-the-badge&logo=firefox)
-![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/badge-block.json&style=for-the-badge&logo=AdBlock)
-[![Explorer](https://img.shields.io/badge/view-explorer_website-blue?logo=firefox&style=for-the-badge)](https://adguard-home-list.herokuapp.com/)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/badge-allow.json&style=for-the-badge&logo=firefox) 
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/badge-block.json&style=for-the-badge&logo=AdBlock) 
 
 Varied and carefully selected filter lists and consolidates for use in [AdGuard Home](https://ealen.dev/posts/raspberry/dns-sinkhole/). (Updated every day at 4 AM)
 
-<!-- vscode-markdown-toc -->
 - [AdGuard Home - List](#adguard-home---list)
 	- [How to use this project](#how-to-use-this-project)
 	- [Custom List Provider](#custom-list-provider)
@@ -17,12 +15,6 @@ Varied and carefully selected filter lists and consolidates for use in [AdGuard 
 			- [AllowList](#allowlist)
 	- [DNS Providers](#dns-providers)
 	- [Local](#local)
-
-<!-- vscode-markdown-toc-config
-	numbering=false
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
 
 ## How to use this project
 
@@ -87,16 +79,17 @@ These lists are downloaded, cleaned and combined during a release.
 
 #### Community
 
+- [crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker) ![GitHub Repo stars](https://img.shields.io/github/stars/crazy-max/WindowsSpyBlocker?style=flat-square) (Only Spy lists)
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) ![GitHub Repo stars](https://img.shields.io/github/stars/StevenBlack/hosts?style=flat-square)
+- [blocklistproject/Lists](https://github.com/blocklistproject/Lists) ![GitHub Repo stars](https://img.shields.io/github/stars/blocklistproject/Lists?style=flat-square)
+- [notracking/hosts-blocklists](https://github.com/notracking/hosts-blocklists) ![GitHub Repo stars](https://img.shields.io/github/stars/notracking/hosts-blocklists?style=flat-square)
+- [anudeepND/blacklist](https://github.com/anudeepND/blacklist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/blacklist?style=flat-square)
 - [Curben Urlhaus Filter](https://gitlab.com/curben/urlhaus-filter)
 - [frogeye.fr](https://hostfiles.frogeye.fr/)
 - [winhelp2002.mvps.org](https://winhelp2002.mvps.org)
 - [Hosts.extras](https://github.com/FadeMind/hosts.extras) ![GitHub Repo stars](https://img.shields.io/github/stars/FadeMind/hosts.extras?style=flat-square)
-- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) ![GitHub Repo stars](https://img.shields.io/github/stars/StevenBlack/hosts?style=flat-square)
-- [anudeepND/blacklist](https://github.com/anudeepND/blacklist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/blacklist?style=flat-square)
-- [notracking/hosts-blocklists](https://github.com/notracking/hosts-blocklists) ![GitHub Repo stars](https://img.shields.io/github/stars/notracking/hosts-blocklists?style=flat-square)
 - [Yhonay/antipopads](https://github.com/Yhonay/antipopads) ![GitHub Repo stars](https://img.shields.io/github/stars/Yhonay/antipopads?style=flat-square)
 - [mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites](https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites) ![GitHub Repo stars](https://img.shields.io/github/stars/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites?style=flat-square)
-- [blocklistproject/Lists](https://github.com/blocklistproject/Lists) ![GitHub Repo stars](https://img.shields.io/github/stars/blocklistproject/Lists?style=flat-square)
 - [Spam404/lists](https://github.com/Spam404/lists) ![GitHub Repo stars](https://img.shields.io/github/stars/Spam404/lists?style=flat-square)
 - [Perflyst/PiHoleBlocklist](https://github.com/Perflyst/PiHoleBlocklist) ![GitHub Repo stars](https://img.shields.io/github/stars/Perflyst/PiHoleBlocklist?style=flat-square)
 - [hectorm/hblock](https://hblock.molinero.dev) ![GitHub Repo stars](https://img.shields.io/github/stars/hectorm/hblock?style=flat-square)
