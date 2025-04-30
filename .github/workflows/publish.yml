@@ -12,11 +12,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node
-      uses: actions/setup-node@v3
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-node@v4
       with:
-        node-version: 16
+        node-version: 22
+
     - name: Install & Build
       run: |
         mkdir public
@@ -25,6 +26,7 @@ jobs:
         npm run build
       env:
         CI: true
+
     - name: Generate AllowList
       run: |
         node ./modules/guard-cli/dist/main.js generate \
@@ -35,6 +37,7 @@ jobs:
         --concatExternal ./allowlist/concat \
         --convertToAllow \
         --output ./public
+
     - name: Generate BlockList
       run: |
         node ./modules/guard-cli/dist/main.js generate \
@@ -44,6 +47,7 @@ jobs:
         --custom ./blocklist/custom \
         --concatExternal ./blocklist/concat \
         --output ./public
+
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
