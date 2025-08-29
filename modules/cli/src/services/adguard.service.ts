@@ -8,7 +8,7 @@ const IGNORE_HOST_START = ['0.0.0.0', '127.0.0.1', '::1'];
  * @see https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
  */
 export class AdguardRuleService {
-  public FromUrlOrIp(value: string, allowRule: boolean): string {
+  public FromUrlOrIp(value: string, allowRule: boolean): string | null {
     value = value.split('#')[0].split('!')[0].trim();
 
     for (const hostStart of IGNORE_HOST_START) {
@@ -36,7 +36,7 @@ export class AdguardRuleService {
     }
   }
 
-  public FromAdGuard(value: string): string {
+  public FromAdGuard(value: string): string | null {
     value = value.split('#')[0].split('!')[0].trim();
     if (value === '') {
       return null;

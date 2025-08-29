@@ -75,7 +75,6 @@ These lists are downloaded, cleaned and combined during a release.
 - [firebog.net](https://firebog.net)
 - [disconnect.me](https://disconnect.me)
 - [phishing.army](https://phishing.army)
-- [oisd](https://oisd.nl)
 
 #### Community
 
@@ -132,22 +131,20 @@ tls://1.1.1.1
 ## Local
 
 ```sh
-node ./modules/guard-cli/dist/main.js generate \
+node ./modules/cli/dist/main.js generate \
 --name AdGuard-Home-List.Allow.txt \
 --badge badge-allow.json \
 --external ./allowlist/external \
 --custom ./allowlist/custom \
 --concatExternal ./allowlist/concat \
 --convertToAllow \
---debug \
 --output ./dist
 
-node ./modules/guard-cli/dist/main.js generate \
+node ./modules/cli/dist/main.js generate \
 --name AdGuard-Home-List.Block.txt \
 --badge badge-block.json \
 --external ./blocklist/external \
 --custom ./blocklist/custom \
 --concatExternal ./blocklist/concat \
---debug \
 --output ./dist
 ```

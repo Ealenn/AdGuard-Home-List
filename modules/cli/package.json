@@ -1,0 +1,81 @@
+{
+  "name": "cli",
+  "version": "0.0.1",
+  "description": "Generate AdGuard Lists",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ealenn/AdGuard-Home-List.git"
+  },
+  "author": "Rudy Marchandise",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Ealenn/AdGuard-Home-List/issues"
+  },
+  "homepage": "https://github.com/Ealenn/AdGuard-Home-List#readme",
+  "scripts": {
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "test:e2e": "jest --config ./test/jest-e2e.json"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.x",
+    "@nestjs/core": "^11.x",
+    "@nestjs/platform-express": "^11.x",
+    "axios": "^1.x",
+    "axios-retry": "^4.x",
+    "nest-commander": "^3.x",
+    "reflect-metadata": "^0.x",
+    "rxjs": "^7.x"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.x",
+    "@eslint/js": "^9.x",
+    "@nestjs/cli": "^11.x",
+    "@nestjs/schematics": "^11.x",
+    "@nestjs/testing": "^11.x",
+    "@types/express": "^5.x",
+    "@types/jest": "^30.x",
+    "@types/node": "^22.x",
+    "@types/supertest": "^6.x",
+    "eslint": "^9.x",
+    "eslint-config-prettier": "^10.x",
+    "eslint-plugin-prettier": "^5.x",
+    "globals": "^16.x",
+    "jest": "^30.x",
+    "prettier": "^3.x",
+    "source-map-support": "^0.x",
+    "supertest": "^7.x",
+    "ts-jest": "^29.x",
+    "ts-loader": "^9.x",
+    "ts-node": "^10.x",
+    "tsconfig-paths": "^4.x",
+    "typescript": "^5.x",
+    "typescript-eslint": "^8.x"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}
