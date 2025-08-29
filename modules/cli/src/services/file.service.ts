@@ -1,3 +1,7 @@
+/* eslint-disable @typescript-eslint/no-unsafe-return */
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { Injectable } from '@nestjs/common';
 import * as FS from 'fs';
 import * as Path from 'path';
@@ -24,7 +28,7 @@ export class FileService {
 
   public ListFiles(dirPath: string): string[] {
     const files = FS.readdirSync(dirPath);
-    let arrayOfFiles = [];
+    let arrayOfFiles: string[] = [];
 
     for (const file of files) {
       if (FS.statSync(dirPath + '/' + file).isDirectory()) {
@@ -56,6 +60,7 @@ export class FileService {
         responseType: 'text',
         responseEncoding: 'UTF-8',
         decompress: true,
+        validateStatus: () => true,
       });
       if (response.status !== 200) {
         this.logService.warn(

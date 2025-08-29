@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./modules/guard-cli
+        working-directory: ./modules/cli
 
     steps:
     - uses: actions/checkout@v4
       with:
-        path: 'modules/guard-cli'
+        path: 'modules/cli'
 
     - uses: actions/setup-node@v4
       with:
@@ -22,7 +22,7 @@ jobs:
 
     - name: Install, build, and test
       run: |
-        cd ./modules/guard-cli
+        cd ./modules/cli
         npm ci
         npm run build
       env:

@@ -21,7 +21,7 @@ jobs:
     - name: Install & Build
       run: |
         mkdir public
-        cd ./modules/guard-cli
+        cd ./modules/cli
         npm ci
         npm run build
       env:
@@ -29,7 +29,7 @@ jobs:
 
     - name: Generate AllowList
       run: |
-        node ./modules/guard-cli/dist/main.js generate \
+        node ./modules/cli/dist/main.js generate \
         --name AdGuard-Home-List.Allow.txt \
         --badge badge-allow.json \
         --external ./allowlist/external \
@@ -40,7 +40,7 @@ jobs:
 
     - name: Generate BlockList
       run: |
-        node ./modules/guard-cli/dist/main.js generate \
+        node ./modules/cli/dist/main.js generate \
         --name AdGuard-Home-List.Block.txt \
         --badge badge-block.json \
         --external ./blocklist/external \

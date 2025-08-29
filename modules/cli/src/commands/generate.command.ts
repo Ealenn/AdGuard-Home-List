@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-call */
 import { Command, CommandRunner, Option } from 'nest-commander';
 import { AdGuardList, Badge } from '../domain';
 import { LogService, FileService, AdguardRuleService } from '../services';
@@ -11,18 +12,19 @@ interface GenerateCommandOptions {
   output: string;
   badge?: string;
   convertToAllow?: boolean;
-  debug?: boolean;
 }
 
 @Command({ name: 'generate', description: 'Generate AdGuard List' })
-export class GenerateCommand implements CommandRunner {
+export class GenerateCommand extends CommandRunner {
   private _list = new AdGuardList();
 
   constructor(
     private readonly logService: LogService,
     private readonly fileService: FileService,
     private readonly adguardRuleService: AdguardRuleService,
-  ) {}
+  ) {
+    super();
+  }
 
   async run(
     _passedParam: string[],
@@ -60,9 +62,8 @@ export class GenerateCommand implements CommandRunner {
         concatExternalFilePath,
       );
       for (const concatExternalFile of concatExternalFiles) {
-        const lines = await this.fileService.GetRemoteFileLines(
-          concatExternalFile,
-        );
+        const lines =
+          await this.fileService.GetRemoteFileLines(concatExternalFile);
         for (const line of lines) {
           const rule = this.adguardRuleService.FromAdGuard(line);
           if (rule) {
@@ -83,7 +84,7 @@ export class GenerateCommand implements CommandRunner {
         for (const line of lines) {
           const rule = this.adguardRuleService.FromUrlOrIp(
             line,
-            options.convertToAllow,
+            options.convertToAllow ?? false,
           );
           if (rule) {
             this._list.add(rule, [externalFilePath, externalFile]);
@@ -99,12 +100,11 @@ export class GenerateCommand implements CommandRunner {
       Path.join(options.output, options.name),
       this.getFileData(false),
     );
-    if (options.debug) {
-      this.fileService.ReplaceFile(
-        Path.join(options.output, 'debug.' + options.name),
-        this.getFileData(true),
-      );
-    }
+
+    this.fileService.ReplaceFile(
+      Path.join(options.output, 'debug.' + options.name),
+      this.getFileData(true),
+    );
 
     /**
      * Generate Badge
@@ -152,7 +152,7 @@ export class GenerateCommand implements CommandRunner {
     description: 'Badge File Name',
     required: false,
   })
-  parseBadge(val?: string): string {
+  parseBadge(val?: string): string | null {
     if (val && val.length > 0) {
       return val;
     }
@@ -166,17 +166,7 @@ export class GenerateCommand implements CommandRunner {
     defaultValue: false,
   })
   parseConvertToAllow(val?: boolean): boolean {
-    return val;
-  }
-
-  @Option({
-    flags: '--debug',
-    description: 'Add comment in list',
-    required: false,
-    defaultValue: false,
-  })
-  parseDebug(val?: boolean): boolean {
-    return val;
+    return val ?? false;
   }
 
   @Option({

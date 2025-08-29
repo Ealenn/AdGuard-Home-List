@@ -5,9 +5,9 @@ export class AdGuardList {
     this._elements = new Map<string, string>();
   }
 
-  public add(rule: string, origin: string[]): boolean {
+  public add(rule: string, origin: string[]): void {
     if (this._elements.has(rule)) {
-      return false;
+      return;
     }
 
     this._elements.set(rule, origin.join(';'));
