@@ -50,6 +50,15 @@ jobs:
         --concatExternal ./blocklist/concat \
         --output ./public
 
+    - name: Split Public/Debug
+      run: |
+        split -b 50m -d -a 3 "public/debug.AdGuard-Home-List.Allow.txt" "public/Debug-AdGuard-Home-List.Allow.txt.part-"
+        split -b 50m -d -a 3 "public/debug.AdGuard-Home-List.Block.txt" "public/Debug-AdGuard-Home-List.Block.txt.part-"
+        rm public/debug.AdGuard-Home-List.Allow.txt
+        rm public/debug.AdGuard-Home-List.Block.txt
+      env:
+        CI: true
+
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
