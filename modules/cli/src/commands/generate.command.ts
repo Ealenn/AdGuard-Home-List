@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call */
 import { Command, CommandRunner, Option } from 'nest-commander';
 import { AdGuardList, Badge } from '../domain';
 import { LogService, FileService, AdguardRuleService } from '../services';
@@ -160,13 +159,14 @@ export class GenerateCommand extends CommandRunner {
   }
 
   @Option({
-    flags: '--convertToAllow',
+    flags: '--convertToAllow [boolean]',
     description: 'Convert rule to allow rule',
     required: false,
     defaultValue: false,
   })
-  parseConvertToAllow(val?: boolean): boolean {
-    return val ?? false;
+  parseConvertToAllow(val: string): boolean {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+    return JSON.parse(val);
   }
 
   @Option({

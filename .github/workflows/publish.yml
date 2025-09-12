@@ -37,7 +37,7 @@ jobs:
         --external ./allowlist/external \
         --custom ./allowlist/custom \
         --concatExternal ./allowlist/concat \
-        --convertToAllow \
+        --convertToAllow true \
         --output ./public
 
     - name: Generate BlockList

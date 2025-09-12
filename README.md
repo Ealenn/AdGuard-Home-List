@@ -94,7 +94,6 @@ These lists are downloaded, cleaned and combined during a release.
 - [hectorm/hblock](https://hblock.molinero.dev) ![GitHub Repo stars](https://img.shields.io/github/stars/hectorm/hblock?style=flat-square)
 - [kaythomas0/CryptoScamDB-Lists](https://github.com/kaythomas0/CryptoScamDB-Lists) ![GitHub Repo stars](https://img.shields.io/github/stars/kaythomas0/CryptoScamDB-Lists?style=flat-square)
 - [durablenapkin/scamblocklist](https://github.com/durablenapkin/scamblocklist) ![GitHub Repo stars](https://img.shields.io/github/stars/durablenapkin/scamblocklist?style=flat-square)
-- [elliotwutingfeng/GlobalAntiScamOrg-blocklist](https://github.com/elliotwutingfeng/GlobalAntiScamOrg-blocklist) ![GitHub Repo stars](https://img.shields.io/github/stars/elliotwutingfeng/GlobalAntiScamOrg-blocklist?style=flat-square)
 - [Dogino/Discord-Phishing-URLs](https://github.com/Dogino/Discord-Phishing-URLs) ![GitHub Repo stars](https://img.shields.io/github/stars/Dogino/Discord-Phishing-URLs?style=flat-square)
 
 #### AllowList 
