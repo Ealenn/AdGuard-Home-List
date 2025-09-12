@@ -84,7 +84,6 @@ These lists are downloaded, cleaned and combined during a release.
 - [notracking/hosts-blocklists](https://github.com/notracking/hosts-blocklists) ![GitHub Repo stars](https://img.shields.io/github/stars/notracking/hosts-blocklists?style=flat-square)
 - [anudeepND/blacklist](https://github.com/anudeepND/blacklist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/blacklist?style=flat-square)
 - [Curben Urlhaus Filter](https://gitlab.com/curben/urlhaus-filter)
-- [frogeye.fr](https://hostfiles.frogeye.fr/)
 - [winhelp2002.mvps.org](https://winhelp2002.mvps.org)
 - [Hosts.extras](https://github.com/FadeMind/hosts.extras) ![GitHub Repo stars](https://img.shields.io/github/stars/FadeMind/hosts.extras?style=flat-square)
 - [Yhonay/antipopads](https://github.com/Yhonay/antipopads) ![GitHub Repo stars](https://img.shields.io/github/stars/Yhonay/antipopads?style=flat-square)
