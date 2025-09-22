@@ -8,11 +8,8 @@ https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
 https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt
-https://winhelp2002.mvps.org/hosts.txt
-https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
 https://raw.githubusercontent.com/Yhonay/antipopads/master/hosts
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/antipopads-re/hosts
-https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts
 https://blocklistproject.github.io/Lists/ads.txt
 https://blocklistproject.github.io/Lists/piracy.txt
 https://blocklistproject.github.io/Lists/ransomware.txt
@@ -24,3 +21,4 @@ https://blocklistproject.github.io/Lists/fraud.txt
 https://blocklistproject.github.io/Lists/porn.txt
 https://hblock.molinero.dev/hosts_domains.txt
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/refs/heads/master/data/hosts/spy.txt
+https://phish.co.za/latest/phishing-domains-ACTIVE.txt
