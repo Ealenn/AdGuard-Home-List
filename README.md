@@ -78,26 +78,20 @@ These lists are downloaded, cleaned and combined during a release.
 
 #### Community
 
-- [crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker) ![GitHub Repo stars](https://img.shields.io/github/stars/crazy-max/WindowsSpyBlocker?style=flat-square) (Only Spy lists)
-- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) ![GitHub Repo stars](https://img.shields.io/github/stars/StevenBlack/hosts?style=flat-square)
-- [blocklistproject/Lists](https://github.com/blocklistproject/Lists) ![GitHub Repo stars](https://img.shields.io/github/stars/blocklistproject/Lists?style=flat-square)
-- [notracking/hosts-blocklists](https://github.com/notracking/hosts-blocklists) ![GitHub Repo stars](https://img.shields.io/github/stars/notracking/hosts-blocklists?style=flat-square)
-- [anudeepND/blacklist](https://github.com/anudeepND/blacklist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/blacklist?style=flat-square)
-- [Curben Urlhaus Filter](https://gitlab.com/curben/urlhaus-filter)
-- [winhelp2002.mvps.org](https://winhelp2002.mvps.org)
-- [Hosts.extras](https://github.com/FadeMind/hosts.extras) ![GitHub Repo stars](https://img.shields.io/github/stars/FadeMind/hosts.extras?style=flat-square)
-- [Yhonay/antipopads](https://github.com/Yhonay/antipopads) ![GitHub Repo stars](https://img.shields.io/github/stars/Yhonay/antipopads?style=flat-square)
-- [mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites](https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites) ![GitHub Repo stars](https://img.shields.io/github/stars/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites?style=flat-square)
-- [Spam404/lists](https://github.com/Spam404/lists) ![GitHub Repo stars](https://img.shields.io/github/stars/Spam404/lists?style=flat-square)
-- [Perflyst/PiHoleBlocklist](https://github.com/Perflyst/PiHoleBlocklist) ![GitHub Repo stars](https://img.shields.io/github/stars/Perflyst/PiHoleBlocklist?style=flat-square)
-- [hectorm/hblock](https://hblock.molinero.dev) ![GitHub Repo stars](https://img.shields.io/github/stars/hectorm/hblock?style=flat-square)
-- [kaythomas0/CryptoScamDB-Lists](https://github.com/kaythomas0/CryptoScamDB-Lists) ![GitHub Repo stars](https://img.shields.io/github/stars/kaythomas0/CryptoScamDB-Lists?style=flat-square)
-- [durablenapkin/scamblocklist](https://github.com/durablenapkin/scamblocklist) ![GitHub Repo stars](https://img.shields.io/github/stars/durablenapkin/scamblocklist?style=flat-square)
-- [Dogino/Discord-Phishing-URLs](https://github.com/Dogino/Discord-Phishing-URLs) ![GitHub Repo stars](https://img.shields.io/github/stars/Dogino/Discord-Phishing-URLs?style=flat-square)
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) ![GitHub Repo stars](https://img.shields.io/github/stars/StevenBlack/hosts?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/StevenBlack/hosts?style=flat-square)
+- [crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker) ![GitHub Repo stars](https://img.shields.io/github/stars/crazy-max/WindowsSpyBlocker?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/crazy-max/WindowsSpyBlocker?style=flat-square) (Only Spy lists)
+- [blocklistproject/Lists](https://github.com/blocklistproject/Lists) ![GitHub Repo stars](https://img.shields.io/github/stars/blocklistproject/Lists?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/blocklistproject/Lists?style=flat-square)
+- [anudeepND/blacklist](https://github.com/anudeepND/blacklist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/blacklist?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/anudeepND/blacklist?style=flat-square)
+- [Phishing-Database/Phishing.Database](https://github.com/Phishing-Database/Phishing.Database) ![GitHub Repo stars](https://img.shields.io/github/stars/Phishing-Database/Phishing.Database?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/Phishing-Database/Phishing.Database?style=flat-square)
+- [FadeMind/hosts.extras](https://github.com/FadeMind/hosts.extras) ![GitHub Repo stars](https://img.shields.io/github/stars/FadeMind/hosts.extras?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/FadeMind/hosts.extras?style=flat-square)
+- [Yhonay/antipopads](https://github.com/Yhonay/antipopads) ![GitHub Repo stars](https://img.shields.io/github/stars/Yhonay/antipopads?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/Yhonay/antipopads?style=flat-square)
+- [Spam404/lists](https://github.com/Spam404/lists) ![GitHub Repo stars](https://img.shields.io/github/stars/Spam404/lists?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/Spam404/lists?style=flat-square)
+- [Perflyst/PiHoleBlocklist](https://github.com/Perflyst/PiHoleBlocklist) ![GitHub Repo stars](https://img.shields.io/github/stars/Perflyst/PiHoleBlocklist?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/Perflyst/PiHoleBlocklist?style=flat-square)
+- [Dogino/Discord-Phishing-URLs](https://github.com/Dogino/Discord-Phishing-URLs) ![GitHub Repo stars](https://img.shields.io/github/stars/Dogino/Discord-Phishing-URLs?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/Dogino/Discord-Phishing-URLs?style=flat-square)
 
-#### AllowList 
-- [anudeepND/whitelist](https://github.com/anudeepND/whitelist) ![GitHub Repo stars](https://img.shields.io/github/stars/anudeepND/whitelist?style=flat-square)
-- [hl2guide/AdGuard-Home-Whitelist](https://github.com/hl2guide/AdGuard-Home-Whitelist) ![GitHub Repo stars](https://img.shields.io/github/stars/hl2guide/AdGuard-Home-Whitelist?style=flat-square) (Only selected lists)
+#### AllowList
+- [hl2guide/AdGuard-Home-Whitelist](https://github.com/hl2guide/AdGuard-Home-Whitelist) ![GitHub Repo stars](https://img.shields.io/github/stars/hl2guide/AdGuard-Home-Whitelist?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/hl2guide/AdGuard-Home-Whitelist?style=flat-square) (Only selected lists)
+- [GoodnessJSON/PiHole-Whitelist](https://github.com/GoodnessJSON/PiHole-Whitelist) ![GitHub Repo stars](https://img.shields.io/github/stars/GoodnessJSON/PiHole-Whitelist?style=flat-square) ![GitHub Last Commit](https://img.shields.io/github/last-commit/GoodnessJSON/PiHole-Whitelist?style=flat-square)
 
 ## DNS Providers
 
@@ -135,7 +129,7 @@ node ./modules/cli/dist/main.js generate \
 --external ./allowlist/external \
 --custom ./allowlist/custom \
 --concatExternal ./allowlist/concat \
---convertToAllow \
+--convertToAllow true \
 --output ./dist
 
 node ./modules/cli/dist/main.js generate \
